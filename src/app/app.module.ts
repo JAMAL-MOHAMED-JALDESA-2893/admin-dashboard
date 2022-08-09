@@ -1,3 +1,4 @@
+import { DefaultModule } from './layouts/default/default.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -15,7 +16,8 @@ import { MatButtonModule } from "@angular/material/button";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    DefaultModule
     
   ],
   providers: [],
